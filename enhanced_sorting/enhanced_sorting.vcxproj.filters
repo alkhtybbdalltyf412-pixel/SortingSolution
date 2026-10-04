@@ -21,12 +21,24 @@
     <ClInclude Include="include\shaker_sort.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\shell_sort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\quick_sort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\binary_insertion_sort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\shaker_sort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shell_sort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\quick_sort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

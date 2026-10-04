@@ -20,11 +20,15 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\binary_insertion_sort.h" />
+    <ClInclude Include="include\quick_sort.h" />
     <ClInclude Include="include\shaker_sort.h" />
+    <ClInclude Include="include\shell_sort.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\binary_insertion_sort.cpp" />
+    <ClCompile Include="src\quick_sort.cpp" />
     <ClCompile Include="src\shaker_sort.cpp" />
+    <ClCompile Include="src\shell_sort.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

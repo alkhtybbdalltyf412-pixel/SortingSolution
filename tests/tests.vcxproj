@@ -148,8 +148,10 @@
     <ClCompile Include="test_exchange_sort.cpp" />
     <ClCompile Include="test_insertion_sort.cpp" />
     <ClCompile Include="test_optimized_bubble_sort.cpp" />
+    <ClCompile Include="test_quick_sort.cpp" />
     <ClCompile Include="test_selection_sort.cpp" />
     <ClCompile Include="test_shaker_sort.cpp" />
+    <ClCompile Include="test_shell_sort.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
