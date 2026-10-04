@@ -15,31 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <ClInclude Include="include\binary_insertion_sort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shaker_sort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="test_insertion_sort.cpp">
+    <ClCompile Include="src\binary_insertion_sort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="test_selection_sort.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="test_exchange_sort.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="test_bubble_sort.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="test_optimized_bubble_sort.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="test_binary_insertion_sort.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="test_shaker_sort.cpp">
+    <ClCompile Include="src\shaker_sort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
